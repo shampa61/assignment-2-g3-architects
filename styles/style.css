@@ -1,0 +1,287 @@
+.body {
+    max-width: 1920px;
+    /* max-width: 1440px; */
+    /* background-color: lightcyan; */
+    font-family: 'Work Sans';
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+* {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.header h1 {
+    margin-bottom: 20px;
+}
+
+.head-line {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+
+}
+
+
+
+.header-middle-portion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+.btn ,.btn-architect{
+    display: block;
+    background-color: orange;
+    border-radius: 15px;
+    border-style: none;
+    padding: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    /* text-align: center; */
+
+}
+.btn-architect{
+  margin-top: 0;
+ 
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    width: 1000px;
+
+}
+
+section {
+    /* background-color: deepskyblue; */
+}
+
+.first-two-teams {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+
+.first-two-teams img {
+    width: 230px;
+}
+
+.first-second-teams img {
+    width: 230px;
+}
+
+.teams {
+    padding: 50px 150px;
+}
+
+.teams-1 {
+    display: flex;
+    /* margin: 50px 150px; */
+}
+
+.box {
+    display: flex;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: center;
+}
+
+.box-style {
+    background-color: rgb(243, 238, 238);
+    padding: 50px 50px;
+    margin-right: 20px;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+.border {
+    padding: 25px;
+    border-left: 5px solid orange;
+    margin-bottom: 30px;
+
+}
+
+.border-1 {
+    margin-left: 25px;
+
+}
+
+.architect {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    padding-top: 50px;
+}
+
+.architect img {
+    width: 450px;
+    margin-right: 25px;
+    /* display: grid;
+     grid-template-columns: 2fr,1fr; */
+}
+
+.architect-description-part {
+    margin-left: 25px;
+}
+
+.teams-right-part {
+    padding: 50px;
+}
+
+.teams-right-part h1 {
+    margin-bottom: 15px;
+}
+
+.architect-description-part>div {
+    margin-bottom: 30px;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  margin: 0;
+  padding: 0;
+}
+.box h1 {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+ .box-1{
+    display: flex;
+    flex-direction: column;
+} 
+
+.box-styles-all{
+    margin-top: 30px;
+    display: flex;
+    /* margin: 0;
+    padding: 0; */
+}
+
+
+.sponsers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 50px;
+
+}
+
+.sponsers img {
+    margin-right: 50px;
+}
+
+.first-part {
+    margin-bottom: 30px;
+    /* display: flex;
+    flex-direction: column; */
+    text-align: center;
+}
+
+footer {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 25px 25px;
+}
+
+@media screen and (max-width:576px) {
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        text-decoration: none;
+    }
+
+    .header {
+        display: flex;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        margin-bottom: 20px;
+        padding-left: 0;
+        margin-left: 0;
+
+    }
+
+    .first-two-teams {
+        display: flex;
+        flex-direction: column;
+        /* margin: 50px 150px; */
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .teams-1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .architect {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-styles-all{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        /* margin: 0;
+        padding: 0; */
+    }
+    .sponsers-img{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+}
